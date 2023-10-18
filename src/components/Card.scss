@@ -1,0 +1,33 @@
+    $primary-color: #16cc86;
+  
+.Card {
+    border: 2px solid $primary-color;
+    border-radius: 1rem;
+    width: 50vh;
+  
+.titleCard, p, h1 {
+      padding: 1rem;
+    }
+  
+.titleCard {
+      margin: 0;
+      font-size: 4rem;
+      border-bottom: 1px solid $primary-color;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 1.5rem;
+    }
+
+img {
+
+    max-width: 100%;
+}
+
+.bodyCard {
+      .description {
+        font-size: large;
+        text-align: center;
+      }
+    }
+  }
